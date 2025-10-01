@@ -56,8 +56,9 @@ Face-Attendance-System/
 │── README.md              # Documentation
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone Repository
-git clone https://github.com/your-username/face-attendance-system.git
+git clone https://github.com/vikeee11/Face-Detection-and-Recognition-based-student-Attendance-System-.git
 cd face-attendance-system
 
 2️⃣ Install Dependencies
