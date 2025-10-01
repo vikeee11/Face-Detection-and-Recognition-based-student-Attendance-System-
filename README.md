@@ -59,9 +59,11 @@ Face-Attendance-System/
 
 1️⃣ Clone Repository
 git clone https://github.com/vikeee11/Face-Detection-and-Recognition-based-student-Attendance-System-.git
-cd face-attendance-system
+
+cd face_recognition
 
 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 3️⃣ Setup Database
@@ -69,13 +71,19 @@ pip install -r requirements.txt
 Create a MySQL database and table for storing student details:
 
 CREATE DATABASE attendance_system;
+
 USE attendance_system;
 
 CREATE TABLE users (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     name VARCHAR(100),
+    
     age INT,
+    
     address VARCHAR(255)
+    
 );
 
 4️⃣ Run Modules
@@ -93,16 +101,6 @@ python train_classifier.py
 Start Attendance Recognition:
 
 python face_recognition.py
-
-📸 Screenshots
-
-GUI for Registration & Training
-
-Real-time Face Detection
-
-Attendance Excel Sheet
-
-(Add screenshots here after running project)
 
 🔮 Future Scope
 
